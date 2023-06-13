@@ -1,3 +1,5 @@
+/* Index */
+
 .carousel {
     margin-bottom: 4rem;
   }
@@ -14,3 +16,13 @@
   .carousel-item {
     height: 32rem;
   }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
