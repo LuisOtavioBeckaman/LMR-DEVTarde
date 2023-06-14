@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie seu evento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="CriarEvento.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/Logotipo_LB-removebg-preview.png" alt=""
+                        height="40" width="100%">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="cadastro.html"
+                                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Criar
+                                Evento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contato.html"
+                                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contato.html"
+                                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Contato</a>
+                        </li>
+                        <div>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquise um evento"
+                            aria-label="Cadastro">
+                        </div>
+                        <div class="text-end">
+                            <button class="btn btn-outline-info" type="submit">Pesquisar</button>
+                            <button class="btn btn-outline-info" type="submit">Cadastro</button>
+                            <button href="#" class="btn btn-info">Login</button>
+                    </div>
+                    </div>
+                </div>
+        </nav>
+        <div>
+            <div class="container">
+                <h1 class="form-title">Registration</h1>
+                <form action="#">
+                    <div class="main-user-info">
+                        <div class="user-input-box">
+                            <label for="Nome completo">Nome completo</label>
+                            <input type="text" id="Nome completo" name="Nome completo"
+                                placeholder="Digite seu nome" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="usuario">Usuário</label>
+                            <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuario" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="E-mail">E-mail</label>
+                            <input type="E-mail" id="E-mail" name="E-mail" placeholder="Digite seu E-mail" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="NumeroCelular">Celular</label>
+                            <input type="text" id="NumeroCelular" name="NumeroCelular"
+                                placeholder="Digite seu numero" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="senha">Senha</label>
+                            <input type="senha" id="senha" name="senha"
+                                placeholder="Digite sua senha" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="Confirme sua senha">Confirme sua senha</label>
+                            <input type="senha" id="ConfirmeSenha" name="ConfirmeSenha"
+                                placeholder="Confirme sua senha" />
+                        </div>
+                    </div>
+                    <div class="gender-details-box">
+                        <span class="gender-title"></span>
+                        <div class="gender-category">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="form-submit-btn">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+            </div>
+    </header>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+
+</html>
