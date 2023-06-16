@@ -94,4 +94,65 @@
   transform: scale(0.5);
 }
 
+.box{
+  display: flex;
+  width: 1080px;
+}
+.img-box{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px  0 0 20px;
+}
+.img-box img{
+  width: 100%;
+}
+.form-box{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px 40px;
+  width: 50%;
+  border-radius: 0 20px 20px 0;
+}
+.form-box h1{
+font-size:30px;
+margin-left: 100px;
+color: #ff0011;
+}
 
+.form-box h2 {
+  font-size: 30px;
+  margin-left: 100px
+  
+}
+.form-box p{
+  font-weight: bold;
+  color: black;
+  margin-left: 100px
+}
+.form-box p a{
+  text-decoration: none;
+}
+.form-box form{
+  margin: 20px 0;
+}
+
+.icons .facebook a:hover{
+  background: #0026ffce;
+  transform: translateY(-10px);
+}
+
+.icons .instagram a:hover{
+  background: #ff00eae1;
+  transform: translateY(-10px);
+}
+
+.icons .twitter a:hover{
+  background: #00b7ffe1;
+  transform: translateY(-10px);
+}
+.icons li a img{
+  filter: invert(1);
+  transform: scale(0.5);
+}
